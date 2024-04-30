@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom Styles */
+
+/* Hero / Banner Section */
+.hero {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #0056b3;
+}
+
+/* How it works section */
+.how-it-works {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.step {
+  flex: 1;
+}
+
+.step i {
+  font-size: 36px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.step h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.step p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #007bff;
+}
